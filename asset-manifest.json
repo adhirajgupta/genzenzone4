@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/genzenzone4/static/css/main.9954dc1a.css",
-    "main.js": "/genzenzone4/static/js/main.cb632f48.js",
+    "main.js": "/genzenzone4/static/js/main.206cae15.js",
     "static/js/787.a91169c0.chunk.js": "/genzenzone4/static/js/787.a91169c0.chunk.js",
     "static/media/Arul2.jpg": "/genzenzone4/static/media/Arul2.5370b96a9e3df9e35e33.jpg",
     "static/media/Saumya2.jpg": "/genzenzone4/static/media/Saumya2.62501efad7ba6a89e2f8.jpg",
@@ -11,11 +11,11 @@
     "static/media/logo.svg": "/genzenzone4/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/genzenzone4/index.html",
     "main.9954dc1a.css.map": "/genzenzone4/static/css/main.9954dc1a.css.map",
-    "main.cb632f48.js.map": "/genzenzone4/static/js/main.cb632f48.js.map",
+    "main.206cae15.js.map": "/genzenzone4/static/js/main.206cae15.js.map",
     "787.a91169c0.chunk.js.map": "/genzenzone4/static/js/787.a91169c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9954dc1a.css",
-    "static/js/main.cb632f48.js"
+    "static/js/main.206cae15.js"
   ]
 }
