@@ -1,21 +1,23 @@
 {
   "files": {
     "main.css": "/genzenzone4/static/css/main.9954dc1a.css",
-    "main.js": "/genzenzone4/static/js/main.206cae15.js",
+    "main.js": "/genzenzone4/static/js/main.f31dc77d.js",
     "static/js/787.a91169c0.chunk.js": "/genzenzone4/static/js/787.a91169c0.chunk.js",
     "static/media/Arul2.jpg": "/genzenzone4/static/media/Arul2.5370b96a9e3df9e35e33.jpg",
     "static/media/Saumya2.jpg": "/genzenzone4/static/media/Saumya2.62501efad7ba6a89e2f8.jpg",
     "static/media/Raunak2.jpg": "/genzenzone4/static/media/Raunak2.c29fde092a93c1d5d067.jpg",
+    "static/media/Gagan.jpg": "/genzenzone4/static/media/Gagan.ad8906b6ef41878c5cc0.jpg",
     "static/media/Reena.jpg": "/genzenzone4/static/media/Reena.24416dfe0ea413bd24a0.jpg",
     "static/media/Adhiraj2.jpg": "/genzenzone4/static/media/Adhiraj2.c9802d6a00901edaa5b8.jpg",
+    "static/media/Genzenzone.jpg": "/genzenzone4/static/media/Genzenzone.04b3f473803968e1439f.jpg",
     "static/media/logo.svg": "/genzenzone4/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/genzenzone4/index.html",
     "main.9954dc1a.css.map": "/genzenzone4/static/css/main.9954dc1a.css.map",
-    "main.206cae15.js.map": "/genzenzone4/static/js/main.206cae15.js.map",
+    "main.f31dc77d.js.map": "/genzenzone4/static/js/main.f31dc77d.js.map",
     "787.a91169c0.chunk.js.map": "/genzenzone4/static/js/787.a91169c0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9954dc1a.css",
-    "static/js/main.206cae15.js"
+    "static/js/main.f31dc77d.js"
   ]
 }
