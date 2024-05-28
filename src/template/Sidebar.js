@@ -11,15 +11,21 @@ function Sidebar(props) {
 
   return (
     <Grid item xs={12} md={4}>
-      <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
+      {/* //* The below code comments the grey shaded region originally present in the template
+          //* This can be used to write text above socials
+       */}
+      {/* <Paper elevation={0} sx={{ p: 2, bgcolor: 'grey.200' }}>
         <Typography variant="h6" gutterBottom>
           {title}
         </Typography>
         <Typography>{description}</Typography>
-      </Paper>
-      <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
+      </Paper> */}
+      {/* <Typography variant="h6" gutterBottom sx={{ mt: 3 }}>
         Lorem Ipsum
-      </Typography>
+      </Typography> */}
+      {/* //* it loops through the data present as an array in the blog.js which has instagram and github etc.
+          //* Unlimited number of socials (icons + text) can be added
+       */}
       { archives.length>0&&
       archives.map((archive) => (
         <Link display="block" variant="body1" href={archive.url} key={archive.title}>
@@ -34,10 +40,11 @@ function Sidebar(props) {
         <Link
           display="block"
           variant="body1"
-          href="#"
+          href={network.link}
           key={network.name}
           sx={{ mb: 0.5 }}
         >
+          
           <Stack direction="row" spacing={1} alignItems="center">
             <network.icon />
             <span>{network.name}</span>
@@ -48,21 +55,21 @@ function Sidebar(props) {
   );
 }
 
-Sidebar.propTypes = {
-  archives: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string.isRequired,
-      url: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
-  description: PropTypes.string.isRequired,
-  social: PropTypes.arrayOf(
-    PropTypes.shape({
-      icon: PropTypes.elementType,
-      name: PropTypes.string.isRequired,
-    }),
-  ).isRequired,
-  title: PropTypes.string.isRequired,
-};
+// Sidebar.propTypes = {
+//   archives: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       title: PropTypes.string.isRequired,
+//       url: PropTypes.string.isRequired,
+//     }),
+//   ).isRequired,
+//   description: PropTypes.string.isRequired,
+//   social: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       icon: PropTypes.elementType,
+//       name: PropTypes.string.isRequired,
+//     }),
+//   ).isRequired,
+//   title: PropTypes.string.isRequired,
+// };
 
 export default Sidebar;
