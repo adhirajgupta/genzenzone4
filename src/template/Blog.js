@@ -10,6 +10,8 @@ import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
 import Instagram from '@mui/icons-material/Instagram';
+import FormatListBulletedIcon from '@mui/icons-material/FormatListBulleted';
+import Genzenzone from '../images/Genzenzone.jpg'
 
 const sections = [
 ];
@@ -20,36 +22,41 @@ const mainFeaturedPost = {
 		`It's time to talk about the importance of mental health. We look after our bodies, so why not our minds? Don't ignore the signs, everyone is entitled to sound mental health. 
 
 Reach out to us today and consult with our panel of expert psychologists. We are here to listen and to help!`,
-	image: 'https://raw.githubusercontent.com/adhirajgupta/GenZenZone/main/public/logo%204..png',
-		// image: require('../logo 4..png'),
+	image: Genzenzone,
+	// image: require('../logo 4..png'),
 	imageText: 'main image description',
 	linkText: 'Fill up the Google Form',
+
 };
 
 const featuredPosts = [
 	{
-		title: 'Featured post',
-		date: 'Nov 12',
+		title: 'Fill up our Google Form',
+		// date: 'Nov 12',
 		description:
-			'This is a wider card with supporting text below as a natural lead-in to additional content.',
+			'Seek Help from our Certified Psychologists Now!',
 		image: 'https://source.unsplash.com/random/?blog/',
 		imageLabel: 'Image Text',
+		linkText: "Fill up the Google Form",
+		link:"https://forms.gle/EHxWFLXZqXPF9qHC7"
 	},
 	{
 		title: 'Meet our founders',
-		date: 'Nov 11',
+		// date: 'Nov 11',
 		description:
 			'Explore more about our team!',
 		image: 'https://source.unsplash.com/random/?blog/',
 		imageLabel: 'Image Text',
+		linkText: "Read More ..."
+
 	},
 ];
 
 
 const sidebar = {
 	title: '',
-	description:"",
-		// 'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
+	description: "",
+	// 'Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.',
 	archives: [
 		// { title: 'March 2020', url: '#' },
 		// { title: 'February 2020', url: '#' },
@@ -64,18 +71,14 @@ const sidebar = {
 		// { title: 'April 1999', url: '#' },
 	],
 	social: [
-		{ name: 'Instagram', icon: Instagram },
+		{ name: 'Instagram', icon: Instagram, link:"https://instagram.com" },
+		{ name: "Google Form", icon: FormatListBulletedIcon, link:"https://forms.gle/EHxWFLXZqXPF9qHC7" }
 	],
 };
 
 const theme = createTheme();
 
 export default function Blog() {
-
-
-
-
-
 	return (
 		<ThemeProvider theme={theme}>
 			<CssBaseline />
@@ -99,6 +102,10 @@ export default function Blog() {
 					</Grid>
 				</main>
 			</Container>
+			<Footer
+				title="Footer"
+				description="Something here to give the footer a purpose!"
+			/>
 		</ThemeProvider>
 	);
 }
